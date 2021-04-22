@@ -1,0 +1,196 @@
+﻿body {
+    width:100%;
+    height:100%;
+    margin:0;
+    background-size:cover;
+    overflow-x:hidden;
+}
+.top{
+        float: left;
+        width: 100%;
+       }
+.logo{
+     border:0px solid;
+
+}
+.menu{
+    list-style: none;
+    margin-top: -35px;
+    float: left;
+    margin-left: 300px;
+   
+}
+.menu li {
+         float:left;
+         font-size: 20px;
+         padding:0 50px; 
+
+    }
+.menu li a{
+     text-decoration:none;
+     font-weight:bold;
+     color:black;
+
+}     
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-top:50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+   position: relative;
+  
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 2px;
+  margin-left: 50px;
+  margin-top: -50px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  margin-right: 50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(63,147,147, 0.5);
+  overflow: hidden;
+  width: 668px;
+  height: 0;
+  margin-left: 407px;
+  padding-left: 100px;
+  transition: .5s ease;
+}
+
+.mySlides:hover .overlay {
+  height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h2{
+    width:100%;
+    margin-top:0px;
+    margin-bottom:0px
+}
+.text h2 a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 40px;
+    margin: 0 15px;
+    padding: 45px 0 0 0;
+    height: 140px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+}
+.text h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    width:400px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+}
+.text h4 a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 20px;
+    margin: 0 60px;
+    padding: 45px 0 0 0;
+    height: 140px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+}

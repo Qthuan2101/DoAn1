@@ -1,0 +1,12 @@
+D:\Hoc Tap\Web Pet\Web Pet\bin\Web Pet.dll.config
+D:\Hoc Tap\Web Pet\Web Pet\bin\Web Pet.dll
+D:\Hoc Tap\Web Pet\Web Pet\bin\Web Pet.pdb
+D:\Hoc Tap\Web Pet\Web Pet\obj\Debug\Web Pet.csprojResolveAssemblyReference.cache
+D:\Hoc Tap\Web Pet\Web Pet\obj\Debug\Web Pet.dll
+D:\Hoc Tap\Web Pet\Web Pet\obj\Debug\Web Pet.pdb
+D:\Do an 1\Web Pet\Web Pet\bin\Web Pet.dll.config
+D:\Do an 1\Web Pet\Web Pet\bin\Web Pet.dll
+D:\Do an 1\Web Pet\Web Pet\bin\Web Pet.pdb
+D:\Do an 1\Web Pet\Web Pet\obj\Debug\Web Pet.csprojResolveAssemblyReference.cache
+D:\Do an 1\Web Pet\Web Pet\obj\Debug\Web Pet.dll
+D:\Do an 1\Web Pet\Web Pet\obj\Debug\Web Pet.pdb
